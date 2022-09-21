@@ -50,17 +50,30 @@ main{
     margin-top: 7em;
 }
 
+.box-content{
+    position: relative; 
+}
+
 .box-img{
     position: relative;
     width: 18em;
     height: 28em;  
 }
 
-.text{
-    position: relative;
+.subtext{
+    
 }
 
-.sales{
+.price{
+    text-decoration: line-through;
+    color: black;
+}
+
+.sale{
+    color: red;
+}
+
+.discount{
     background-color: rgb(184, 27, 27);
     color: white;
     position: absolute;
@@ -158,3 +171,6 @@ main{
     background-image: url(../img/6b.webp);
     background-size: cover;
 }
+
+/* footer */
+
