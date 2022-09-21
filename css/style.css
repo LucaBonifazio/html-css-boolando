@@ -27,7 +27,7 @@ header{
     padding: 1em;
 }
 
-.gender a{
+a{
     text-decoration: none;
     color: white;
 }
@@ -37,7 +37,8 @@ header{
 main{
     display: flex;
     justify-content: center;
-    align-items: center;    
+    align-items: center;   
+    margin-bottom: 4em; 
 }
 
 .container{
@@ -46,7 +47,7 @@ main{
     justify-content: center;
     flex-wrap: wrap;
     position: relative;
-    gap: 1em;
+    gap: 2em;
     margin-top: 7em;
 }
 
@@ -58,10 +59,6 @@ main{
     position: relative;
     width: 18em;
     height: 28em;  
-}
-
-.subtext{
-    
 }
 
 .price{
@@ -174,3 +171,25 @@ main{
 
 /* footer */
 
+footer{
+    background-color: black;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info{
+
+}
+
+h3{
+    color: white;
+}
+
+.social{
+    color: white;    
+}
+
+.fa{
+	font-size: 1em;
+}
