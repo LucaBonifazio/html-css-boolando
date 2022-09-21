@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-/* general */
+/* header */
 
 header{
     background-color: rgb(230, 122, 13);
@@ -13,13 +13,8 @@ header{
     justify-content: center;
     flex-direction: column;
     width: 100%;
+    z-index: 10;
 }
-
-main{
-    max-width: 1100px;
-}
-
-/* header */
 
 .header-container{
     display: flex;
@@ -35,4 +30,121 @@ main{
 .gender a{
     text-decoration: none;
     color: white;
+}
+
+/* main */
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+
+.container{
+    max-width: 1100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 1em;
+    margin-top: 7em;
+}
+
+.box-img{
+    position: relative;
+    width: 18em;
+    height: 26em;
+    display: inline-block;
+}
+
+.sales{
+    background-color: rgb(184, 27, 27);
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 25px;
+    padding: 0.1em;
+}
+
+.type-dress{
+    background-color: rgb(27, 184, 64);
+    color: white;
+    position: absolute;
+    left: 40px;
+    bottom: 25px;
+    padding: 0.1em;
+}
+
+.heart{
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 25px;
+}
+
+.box-img:hover .heart{
+    color: red;
+  }
+
+.model1{
+    background-image: url(../img/1.webp);
+    background-size: contain;
+}
+
+.model2{
+    background-image: url(../img/2.webp);
+    background-size: contain;
+}
+
+.model3{
+    background-image: url(../img/3.webp);
+    background-size: contain;
+}
+
+.model4{
+    background-image: url(../img/4.webp);
+    background-size: contain;
+}
+
+.model5{
+    background-image: url(../img/5.webp);
+    background-size: contain;
+}
+
+.model6{
+    background-image: url(../img/6.webp);
+    background-size: contain;
+}
+
+/* hover */
+
+.model1:hover {
+    background-image: url(../img/1b.webp);
+    background-size: contain;
+  }
+
+.model2:hover{
+    background-image: url(../img/2b.webp);
+    background-size: contain;
+}
+
+.model3:hover{
+    background-image: url(../img/3b.webp);
+    background-size: contain;
+}
+
+.model4:hover{
+    background-image: url(../img/4b.webp);
+    background-size: contain;
+}
+
+.model5:hover{
+    background-image: url(../img/5b.webp);
+    background-size: contain;
+}
+
+.model6:hover{
+    background-image: url(../img/6b.webp);
+    background-size: contain;
 }
