@@ -5,3 +5,34 @@
 }
 
 /* general */
+
+header{
+    background-color: rgb(230, 122, 13);
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+main{
+    max-width: 1100px;
+}
+
+/* header */
+
+.header-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header-logo{
+    width: 8em; 
+    padding: 1em;
+}
+
+.gender a{
+    text-decoration: none;
+    color: white;
+}
