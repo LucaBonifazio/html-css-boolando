@@ -53,8 +53,11 @@ main{
 .box-img{
     position: relative;
     width: 18em;
-    height: 26em;
-    display: inline-block;
+    height: 28em;  
+}
+
+.text{
+    position: relative;
 }
 
 .sales{
@@ -66,11 +69,18 @@ main{
     padding: 0.1em;
 }
 
-.type-dress{
+.eco{
     background-color: rgb(27, 184, 64);
     color: white;
     position: absolute;
     left: 40px;
+    bottom: 25px;
+    padding: 0.1em;
+}
+
+.only-eco{
+    position: absolute;
+    left: 0;
     bottom: 25px;
     padding: 0.1em;
 }
@@ -83,68 +93,68 @@ main{
     font-size: 25px;
 }
 
-.box-img:hover .heart{
-    color: red;
-  }
-
 .model1{
     background-image: url(../img/1.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model2{
     background-image: url(../img/2.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model3{
     background-image: url(../img/3.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model4{
     background-image: url(../img/4.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model5{
     background-image: url(../img/5.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model6{
     background-image: url(../img/6.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 /* hover */
 
+.box-img:hover .heart{
+    color: red;
+  }
+
 .model1:hover {
     background-image: url(../img/1b.webp);
-    background-size: contain;
+    background-size: cover;
   }
 
 .model2:hover{
     background-image: url(../img/2b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model3:hover{
     background-image: url(../img/3b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model4:hover{
     background-image: url(../img/4b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model5:hover{
     background-image: url(../img/5b.webp);
-    background-size: contain;
+    background-size: cover;
 }
 
 .model6:hover{
     background-image: url(../img/6b.webp);
-    background-size: contain;
+    background-size: cover;
 }
